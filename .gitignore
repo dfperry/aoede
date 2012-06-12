@@ -1,6 +1,9 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+target
+runner
+log
+.idea
+*.iml
+*.ipr
+*.iws
+*.svn
+Thumbs.db
