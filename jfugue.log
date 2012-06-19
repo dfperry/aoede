@@ -1,0 +1,204 @@
+TRACE [main] (MusicStringParser.java:238) - Tempo element: tempo = 120
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: C
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token C
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 0
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 60
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: D
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token D
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 2
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 62
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: E
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token E
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 4
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 64
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: F
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token F
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 5
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 65
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: G
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token G
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 7
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 67
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:238) - Tempo element: tempo = 120
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: C
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token C
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 0
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 60
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: D
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token D
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 2
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 62
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: E
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token E
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 4
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 64
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: F
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token F
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 5
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 65
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: G
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token G
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 7
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 67
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:238) - Tempo element: tempo = 120
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: C
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token C
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 0
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 60
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: D
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token D
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 2
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 62
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: E
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token E
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 4
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 64
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: F
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token F
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 5
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 65
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: G
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token G
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 7
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 67
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:238) - Tempo element: tempo = 120
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: C
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token C
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 0
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 60
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: D
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token D
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 2
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 62
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: E
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token E
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 4
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 64
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: F
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token F
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 5
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 65
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
+TRACE [main] (MusicStringParser.java:174) - --------Processing Token: G
+TRACE [main] (MusicStringParser.java:609) -  
+TRACE [main] (MusicStringParser.java:610) - --Parsing note from token G
+TRACE [main] (MusicStringParser.java:710) - Note number within an octave (C=0, B=11): 7
+TRACE [main] (MusicStringParser.java:892) - Octave: 5
+TRACE [main] (MusicStringParser.java:921) - Computed note number: 67
+TRACE [main] (MusicStringParser.java:1131) - Decimal duration is 0.25
+TRACE [main] (MusicStringParser.java:1132) - Actual duration is 32
+TRACE [main] (MusicStringParser.java:1327) - Attack velocity = 64; Decay velocity = 64
+TRACE [main] (MusicStringParser.java:1377) - Firing first note event
