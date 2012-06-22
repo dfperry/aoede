@@ -6,7 +6,7 @@ import org.jfugue.Rhythm;
 import org.junit.Test;
 
 import dperry.aoede.music.factory.MusicFactory;
-import dperry.aoede.music.factory.MusicFactory.ChordSignature;
+import dperry.aoede.music.factory.MusicFactory.ChordNum;
 
 public class PlayerTest {
 
@@ -70,7 +70,7 @@ public class PlayerTest {
 	@Test
 	public void testGenerateChordProgression() {
 		MusicFactory factory = new MusicFactory( System.currentTimeMillis() );
-		ChordSignature current = ChordSignature.I;
+		ChordNum current = ChordNum.I;
 		
 		System.out.println( "Progression:" );
 		for( int i = 0; i < 4; i++ ) {

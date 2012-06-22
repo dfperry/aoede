@@ -1,0 +1,41 @@
+	// major chords: I IV V
+	// minor chords: ii iii vi
+	
+	/*
+	 *   Key	I	ii	iii	IV	V	vi
+	 *   C		C	Dm	Em	F	G	Am
+	 *   Db		Db	Ebm	Fm	Gb	Ab	Bbm
+	 *   D		D	Em	F#m	G	A	Bm
+	 *   Eb		Eb	Fm	Gm	Ab	Bb	Cm
+	 *   E		E	F#m	G#m	A	B	C#m
+	 *   F		F	Gm	Am	Bb	C	Dm
+	 *   Gb		Gb	Abm	Bbm	Cb	Db	Ebm
+	 *   G		G	Am	Bm	C	D	Em
+	 *   Ab		Ab	Bbm	Cm	Db	Eb	Fm
+	 *   A		A	Bm	C#m	D	E	F#m
+	 *   Bb		Bb	Cm	Dm	Eb	F	Gm
+	 *   B		B	C#m	D#m	E	F#	G#m
+	 * 
+	 */
+	
+	/*
+	 * Simple Map
+	 * 
+	 * 		ii			I   -> ii, iii, IV, V, vi
+	 * 		 |\			ii  -> iii, V
+	 * 		 |	V		iii -> IV, vi
+	 * 		 |/ |		IV  -> I, ii, V
+	 * 		iii |		V   -> I, iii, vi
+	 * 	     |\ |		vi  -> ii, IV
+	 * 		 |	vi		
+	 * 		 |/ |
+	 * 		IV  |
+	 * 	   / |\ |
+	 * 	  |  |	ii
+	 * 	  |	 |/
+	 * 	  |	 V
+	 * 	  |	 |
+	 * 	   \ |
+	 * 		 I
+	 * 
+	 */
