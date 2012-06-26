@@ -1,5 +1,7 @@
 package dperry.aoede.music;
 
+import java.util.List;
+
 import org.jfugue.Pattern;
 import org.jfugue.Player;
 import org.jfugue.Rhythm;
@@ -7,6 +9,7 @@ import org.junit.Test;
 
 import dperry.aoede.music.factory.MusicFactory;
 import dperry.aoede.music.factory.MusicFactory.ChordNum;
+import dperry.aoede.music.factory.OutputLength;
 
 public class PlayerTest {
 
@@ -70,12 +73,64 @@ public class PlayerTest {
 	@Test
 	public void testGenerateChordProgression() {
 		MusicFactory factory = new MusicFactory( System.currentTimeMillis() );
-		ChordNum current = ChordNum.I;
+		
+		factory.setOutputLength( OutputLength.HYPERMEASURE );
+		
+		List<ChordNum> chords = factory.buildChordProgression();
 		
 		System.out.println( "Progression:" );
-		for( int i = 0; i < 4; i++ ) {
-			current = factory.getNextChord( current );
-			System.out.print( current + " " );
+		for( ChordNum chord : chords ) {
+			System.out.print( chord + " " );
 		}
 	}
+	
+	@Test
+	public void testGenerateMelodyProgression() {
+		Player player = new Player();
+		
+		MusicFactory factory = new MusicFactory( System.currentTimeMillis() );
+		
+		Voice voice = new Voice( "melody", VoiceType.MELODY, VoiceStyle.PROGRESSION, 5 );
+		factory.addVoice( voice );
+		
+		factory.setOutputLength( OutputLength.LINE );
+		
+		player.play( factory.getNextPiece() );
+		
+	}
+	
+	@Test
+	public void testGenerateRhythmHoldProgression() {
+		Player player = new Player();
+		
+		MusicFactory factory = new MusicFactory( System.currentTimeMillis() );
+		
+		Voice voice = new Voice( "rhythm", VoiceType.RHYTHM, VoiceStyle.HOLD, 3 );
+		factory.addVoice( voice );
+		
+		factory.setOutputLength( OutputLength.LINE );
+		
+		player.play( factory.getNextPiece() );
+		
+	}
+	
+	@Test
+	public void testGenerateMelodyWithRhythmHoldProgression() {
+		Player player = new Player();
+		
+		MusicFactory factory = new MusicFactory( System.currentTimeMillis() );
+		
+		Voice rhythm = new Voice( "rhythm", VoiceType.RHYTHM, VoiceStyle.HOLD, 3 );
+		factory.addVoice( rhythm );
+		
+		Voice melody = new Voice( "melody", VoiceType.MELODY, VoiceStyle.PROGRESSION, 5 );
+		factory.addVoice( melody );
+		
+		factory.setOutputLength( OutputLength.LINE );
+		
+		player.play( factory.getNextPiece() );
+		
+	}
+	
+	
 }
